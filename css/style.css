@@ -1,0 +1,236 @@
+body{
+	padding-top: 50px;
+}
+
+@media screen and (min-width: 574px) {
+	body{
+		padding-top: 70px;
+	}
+}
+.icon-color{ color:darkred}
+.fa-border{background:white}
+
+/* ##################################### */
+/* #########スライドトップボタン########## */
+/* ##################################### */
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+/* ##################################### */
+/* #########スライドトップボタン########## */
+/* ##################################### */
+
+/* ##################################### */
+/* ###############フッター############### */
+/* ##################################### */
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#343a40; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+/* ##################################### */
+/* ###############フッター############### */
+/* ##################################### */
+
+/* ##################################### */
+/* ###############商品一覧############### */
+/* ##################################### */
+
+.like {
+	font-size: 1.5rem;
+  }
+
+  .view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.thumbnail
+{
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+}
+.item.list-group-item .img-event {
+    float: left;
+    width: 30%;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.item.list-group-item .caption
+{
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item:after
+{
+    clear: both;
+}
+/* ##################################### */
+/* ###############商品一覧############### */
+/* ##################################### */
+
+/* ##################################### */
+/* ###############モーダル############### */
+/* ##################################### */
+
+/* modal-1 */
+.modal-1 .modal-content {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+  }
+  .modal-1 .close {
+	color: #fff;
+	opacity: 1;
+  }
+  .modal-1 .modal-body {
+	background-color: #fff;
+  }
+
+/* ##################################### */
+/* ###############モーダル############### */
+/* ##################################### */
+
+/* ##################################### */
+/* ###############パンくず############### */
+/* ##################################### */
+.breadcrumb {
+	background:transparent;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+	content: "\f101" !important;
+	font-family: 'fontAwesome';
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+	content: "\f101" !important;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+  }
+
+
+
+
+h1.title, h2.title {
+	color: #333;
+	line-height: 1.2;
+	border-bottom: solid 1px #999;
+	margin-bottom: 8px;
+}
+  h1.title {
+	font-size: 20px;
+  }
+  h2.title {
+	font-size: 18px;
+  }
+  .main-text {
+	font-size: 14px;
+	line-height: 1.5;
+  }
+   
+  @media only screen and (min-width:651px) {　/* 中画面用 */
+	h1.title {
+	  font-size: 24px;
+	}
+	h2.title {
+	  font-size: 20px;
+	}
+	.main-text {
+	  font-size: 16px;
+	}
+  }
+   
+  @media only screen and (min-width:961px) {　/* 大画面用 */
+	h1.title {
+	  font-size: 26px;
+	}
+	h2.title {
+	  font-size: 22px;
+	}
+	.main-text {
+	  font-size: 17px;
+	}
+  }
+
